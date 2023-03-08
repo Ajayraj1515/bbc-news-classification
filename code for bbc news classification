@@ -128,3 +128,7 @@ print(f"Test Precision: {test_p:.2f}")
 print(f"Test Recall: {test_r:.2f}")
 print(f"Test F1: {test_f1:.2f}")
 print(f"Confusion Matrix: \n{test_cm}")
+
+
+This code trains the model on the training set and reports the validation accuracy after each epoch. 
+Then, it makes predictions on the test set and reports the accuracy, precision, recall, F1-score, and confusion matrix.
